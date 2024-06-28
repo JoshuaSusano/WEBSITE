@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+ margin: 0;
+ overflow-x: hidden;
+}header{
+   
+    display: flex;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    border: 0px solid;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(31, 30, 30);
+    background-color: white;
+    z-index: 2;
+    
+}header .logo{
+    padding: 0px 80px;
+    position: fixed;
+    top: 10px;
+}.logo h2{
+    font-family: "Roboto" , sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+} header .menu{
+    padding: 0px 80px 0px 335px;
+    position: relative;
+    top: 16px;
+    left: 35%;
+}.menu ul li:nth-child(2){
+    margin-right: -13px
+}
+.menu ul{
+    list-style: none;
+}.menu ul li{
+    display: inline-block;
+    position: relative;
+}.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 600;
+}.menu ul li ul.dropdown li{
+  display: block;
+  margin: 4px 0px;
+}.menu ul li ul.dropdown{
+    width: auto;
+    background: white;
+    position: absolute;
+    display: none;
+}.menu ul li a:after{
+    content:"";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: -1;
+    left: -1px;
+    bottom: -1px;
+   
+}.menu ul li a:hover::after{
+width: 100%;
+}.menu ul li:hover ul.dropdown{
+    display: block;
+}.container{
+    
+}.container img{
+    height: 535px;
+   width: 100%;
+   image-resolution: from-image;
+   background: no-repeat;
+}
+.about{
+    height: 260px;
+    background-color: white;
+    display: flex;
+}.about img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    top: 26px;
+    left: 80px;
+}.about .abouttext{
+    position: relative;
+    top: 35px;
+    left: 120px;
+    font-family: "Roboto",sans-serif;
+}.about .abouttext h2{
+    font-size: 30px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 20px;
+}.about .abouttext p{
+   text-align: justify;
+   font-size: 20px;
+   position: relative;
+   top: 15px;
+   left: 20px;
+}.pledge{
+    height: 320px;
+    background-color: #111111;
+    display: flex;  
+    font-family: "Roboto", sans-serif;  
+}.pledge .vision{
+    position: relative;
+    top: 60px;
+    left: 90px;
+}.pledge .vision h2{
+   color: white;
+   position: relative;
+   left: 185px;
+   letter-spacing: 1px;
+   
+}.pledge .vision p{
+    color: white;
+    position: relative;
+    top: 70px;
+    text-align: justify; 
+    letter-spacing: 1px;
+}.pledge .mission{
+    position: relative;
+    left: 298px;
+}.pledge .mission h2{
+position: absolute;
+right: 300px;
+top: 61px;
+letter-spacing: 1PX;
+}
+.pledge .mission p{
+color: white;
+position: relative;
+right: 80px;
+top: 158px;
+letter-spacing: 1px;
+text-align: justify;
+}.who{
+    height: 92px;
+    
+}.who h1{
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    letter-spacing: 1px;
+    right: 10px;
+}.container2{
+    height: 369px;
+    margin-right: 80px;
+    margin-left: 80px;
+    display: flex;
+    
+}.container2 .box1{
+  height: 369px;
+  width: 630px;
+  background-color: #B21515;
+  margin: 20px;
+  position: relative;
+  top: -20px;
+ left: -20px;
+}.container2 .box1 img{
+    height: 380px;
+    width: 600px;
+}
+.container2 .box2{
+    height: 369px;
+    width: 630px;
+ }
+ .main{
+    padding: 30px 80px;
+ }.main .head{
+    font-family: "Roboto",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+ }.headp{
+    font-family: "Roboto",sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    position: relative;
+    top: 20px;
+    text-align: center;
+ }
+ .facultypic{
+    height: 500px;
+    width: 100%;
+    margin-top: 40px;
+    margin-right: 80px;
+    display: flex;
+ }.facultypic div{
+    width: 900px;
+    height: 400px;
+    margin: 5px;
+    background-color: blue;
+ }.facultypic img{
+    height: 400px;
+    width: 622px;
+ }
+ .facultypic1{
+    height: 500px;
+    width: 100%;
+    margin-top: 100px;
+    margin-right: 80px;
+    display: flex;
+    position: relative;
+    top: -11rem;
+ }.facultypic1 div{
+    width: 900px;
+    height: 400px;
+    margin: 5px;
+    background-color: rgb(255, 72, 0);
+ }.facultypic1 img{
+    height: 400px;
+    width: 622px;
+ }
+
+ .footer{
+    position: relative;
+    padding: 0px;
+    bottom: 85px;
+    margin-top: -135px;
+}
+
+.footer img {
+    max-width: 100%;
+    margin-bottom: -500px;
+
+}
+
+.headlogo{
+    position: relative;
+    left:485px;
+    
+}
+
+.headf{
+position: relative;
+
+font-size: 30px;
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+
+.subfooter{
+position: relative;
+
+font-family: "Roboto", sans-serif;
+color:white;
+font-size: 25px;
+left: 100px;
+font-weight: bold;
+bottom: 50px;
+
+}
+
+.logof img{
+    height:68px;
+    width: 68px;
+    position: relative;
+    bottom:57px;
+    right: 80px;
+    
+}
+
+.footerline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    bottom:10px;
+ 
+
+}
+
+.connect{
+    position: relative;
+    color: #E5E1E1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 182px;
+
+
+}
+
+.icons{
+    position:relative;
+    display: flex;
+    gap: 15px;
+    left: 200px;    
+    top:20px;
+}
+
+.fb{
+    position: relative;
+    bottom: 2px;
+}
+
+.foooterline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    top:50px;
+ 
+}
+
+
+.terms ul li{
+    position: relative;
+    color:white;
+    left: 455px;
+    top: 170px;
+    display: inline;
+    
+ 
+}
+
+.terms a {
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+   
+
+    
+}
+
+.cright{
+    position: relative;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 474px;
+    top: 170px;
+}

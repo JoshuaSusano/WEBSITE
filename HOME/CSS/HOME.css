@@ -1,0 +1,819 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+
+
+header{
+    margin: 0;
+    display: flex;
+    position: fixed;
+    min-height: 70px;
+    display: flex;
+    border: 0px solid;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(31, 30, 30);
+    background-color: white;
+    z-index: 2;
+    
+}
+
+header .logo{
+    padding: 0px 80px;
+    position: fixed;
+    top: 10px;
+}
+
+.logo h2{
+    font-family: "Roboto" , sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+} 
+
+header .menu{
+    padding: 0px 80px 0px 335px;
+    position: relative;
+    top: 16px;
+    left: 35%;
+}
+
+.menu ul li:nth-child(2){
+    margin-right: -13px
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-family: "Roboto" , sans-serif;
+    font-weight: 600;
+}
+
+.menu ul li ul.dropdown li{
+  display: block;
+  margin: 4px 0px;
+}
+
+.menu ul li ul.dropdown{
+    width: auto;
+    background: white;
+    position: absolute;
+    display: none;
+}
+
+.menu ul li a:after{
+    content:"";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+}
+
+.menu ul li a:hover::after{
+width: 100%;
+}
+
+.menu ul li:hover ul.dropdown{
+    display: block;
+}
+
+video .back-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -3;
+    padding: 70px;
+    top: 0;
+}
+
+.ccsfp{
+    height: 320px;
+    width: 330px;
+    margin-left:29%;
+    padding: 120px;    
+    align-items: center; 
+    position:absolute;    
+    justify-content: center;
+    margin-top: 4%;
+}
+
+.landingtext{
+position: relative;
+left: -5px;
+top: -285px;
+text-align: center;
+
+}
+
+.landingtext h1{
+font-size: 40px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+color: white;
+letter-spacing: 1px;
+}
+
+.landingtext h2{
+font-size: 20px;
+font-family: "Roboto", sans-serif;
+font-weight: 500;
+color: white;
+letter-spacing: 2px;
+}
+
+.container{
+    height: 200px;
+    display: flex;
+    margin-top: -85px;
+
+}
+
+.container div{
+    height: 200px;
+    width: 200px;
+    border: 0px black;
+    margin-left: 80px;
+    margin-right: 80px; 
+    margin: 70px;
+}
+
+.container img{
+    height: 200px;
+    width: 250px;
+}
+
+.about{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 120px; 
+    text-align: justify;
+    text-justify: inter-word;
+    
+    
+}
+
+
+.about h3{
+    letter-spacing: 1px;
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    text-align: left;
+    position: relative;
+    top: -6px;
+
+}
+
+.about p{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: justify;
+    position: relative;
+    top: 5px;
+    width: 523px;
+ 
+}
+
+.aboutpic{
+   float: right;
+   position: relative;
+   top: -321px;
+   margin-right: 80px;
+   width: 650px;
+   height: 350px;
+
+}
+
+.about button{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 33px;
+
+    background-color: #DD3232;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 2px 4px black;
+    
+}
+
+.about a{
+    text-decoration: none;
+    color: white;
+}
+
+.about button:hover{
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 38px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    
+}
+
+
+.newscontainer{
+    position: relative;
+    max-width: 100%;
+    height: 450px;
+    background-color: #D9D9D9;
+    top: 90px;
+
+}
+
+.headnews{
+    position: relative;
+    margin-left: 80px;
+    bottom: 320px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+.subnews{
+    position: relative;
+    margin-left: 80px;
+    bottom: 315px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+
+}
+
+.newsline hr{
+    width: 50px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 540px;
+    margin-left: 80px;
+}
+
+.newsimg{
+    position: relative;
+    display: flex;
+    bottom: 290px;
+    margin-left: 80px;
+}
+
+.n1container{
+  position: absolute;
+  width: 370px;
+  height: 230px;
+  background:linear-gradient(to bottom,  rgb(34, 34, 34),rgb(34, 34, 34), rgb(34, 34, 34), rgb(34, 34, 34), black, rgb(0, 0, 0), black); 
+  bottom: 4px;
+  opacity: 0;
+  transition: 1s;
+}
+
+.news1h1{
+position: absolute;
+color:white;
+font-size: 12px;
+font-family: "Roboto", sans-serif;
+top: 165px;
+z-index: 1;
+left: 30px;
+opacity: 0;
+padding: 0px;
+top:150px;
+transition: 1s;
+}
+
+.news1p{
+    position: absolute;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    z-index: 1;
+    opacity: 0;
+    padding: 0px;
+    left: 110px;
+    top: 185px;
+    transition: 1s;
+    }
+
+.newsimg .news1:hover .n1container {
+ opacity: .6;
+}
+
+.newsimg .news1:hover .news1h1 {
+    opacity: 1;
+   }
+
+   .newsimg .news1:hover .news1p {
+    opacity: 1;
+   }
+
+
+
+.news2 img {
+    margin-left: 78px;
+    margin-right: 78px;
+}
+
+
+.n2container{
+    position: absolute;
+    width: 370px;
+    height: 230px;
+    background:linear-gradient(to bottom,  rgb(20, 20, 20),rgb(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20), black, rgb(0, 0, 0), black); 
+    bottom: 4px;
+    opacity: 0;
+    transition: 1s;
+    margin-left: 78px;
+  } 
+
+  
+.news2h1{
+    position: absolute;
+    color:white;
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+    margin-top:5px;
+    z-index: 1;
+    margin-left: 89px;
+    opacity: 0;
+    padding: 0px;
+    top:153px;
+    transition: 1s;
+    }
+    
+    .news2p{
+        position: absolute;
+        color:white;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        z-index: 1;
+        opacity: 0;
+        padding: 0px;
+        margin-left: 223px;
+        top: 185px;
+        transition: 1s;
+        }
+
+        .newsimg .news2:hover .n2container {
+            opacity: .8;
+           }
+           
+           .newsimg .news2:hover .news2h1 {
+               opacity: 1;
+              }
+           
+              .newsimg .news2:hover .news2p {
+               opacity: 1;
+              }
+
+    .n3container{
+       position: absolute;
+       width: 370px;
+       height: 230px;
+       background:linear-gradient(to bottom,  rgb(20, 20, 20),rgb(20, 20, 20), rgb(20, 20, 20), rgb(20, 20, 20), black, rgb(0, 0, 0), black); 
+       bottom: 4px;
+       opacity: 0;
+       transition: 1s;
+       
+    } 
+
+        .news3h1{
+    position: absolute;
+    color:white;
+    font-size: 8px;
+    font-family: "Roboto", sans-serif;
+    margin-top:5px;
+    z-index: 1;
+    margin-left: 33px;
+    opacity: 0;
+    padding: 0px;
+    top:153px;
+    transition: 1s;
+    }
+    
+    .news3p{
+        position: absolute;
+        color:white;
+        font-family: "Roboto", sans-serif;
+        font-size: 15px;
+        z-index: 1;
+        opacity: 0;
+        padding: 0px;
+        margin-left: 125px;
+        top: 185px;
+        transition: 1s;
+        }
+        .newsimg .news3:hover .n3container {
+            opacity: .8;
+           }
+           
+           .newsimg .news3:hover .news3h1 {
+               opacity: 1;
+              }
+           
+              .newsimg .news3:hover .news3p {
+               opacity: 1;
+              }
+
+.newsbutton a{
+    text-decoration: none;
+    color: white;
+}
+
+.newsbutton button{
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    bottom: 255px;
+    left: 663px;
+    background-color: #DD3232;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    box-shadow: 0px 2px 4px black;
+}
+
+.newsbutton button:hover{
+    position: relative;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    bottom: 250px;
+    left: 663px;
+    background-color: #DD3232;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto", sans-serif;
+    
+    
+}
+
+.headactivity{
+    position: relative;
+    margin-left: 80px;
+    bottom: 190px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+
+}
+
+.subactivity{
+    position: relative;
+    margin-left: 80px;
+    bottom: 185px;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+
+}
+
+.upperimg{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    bottom: 150px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    white-space: nowrap;
+    transition: linear;
+    padding: 0px;
+   
+
+}
+
+.upperimg .act1{
+    animation-name: slideleft;
+    animation-iteration-count: infinite;
+    animation-duration:20s;
+    transition: linear;
+}
+
+.upperimg .act2{
+    animation-name: slideleft;
+    animation-iteration-count: infinite;
+    animation-duration:20s;
+    transition: linear;
+}
+
+.upperimg .act3{
+    animation-name: slideleft;
+    animation-iteration-count: infinite;
+    animation-duration:20s;
+    transition: linear;
+}
+
+.upperimg .act4{
+    animation-name: slideleft;
+    animation-iteration-count: infinite;
+    animation-duration:20s;
+    transition: linear;
+}
+
+.upperimg .act5{
+    animation-name: slideleft;
+    animation-iteration-count: infinite;
+    animation-duration:20s;
+    transition: linear;
+}
+
+@keyframes slideleft{
+    0% {
+        left: 100%;
+    }
+    25% {
+        left: 0;
+    }
+    50% {
+        left: -100%;
+    }
+    75% {
+        left: 0;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+.lowerimg{
+    position: relative;
+    display: flex;
+    gap: 20px;
+    bottom: 132px;
+    overflow: hidden;
+    margin-left: 0px;
+    margin-right: 0px;
+    animation-name: slideright;
+}
+
+@keyframes slideright{
+
+
+}
+
+
+.actline hr{
+    width: 50px;
+    border: 1px solid black;
+    position: relative;
+    bottom: 175px;
+    margin-left: 80px;
+}
+.slider {
+    width: 1440px; 
+    overflow: hidden;
+    position: relative;
+    bottom: 160px;
+    transition: 1s;
+    z-index: 1;
+ 
+    
+}
+
+.slide-track {
+    display: flex;
+    width: calc(500px * 8); 
+    animation: scroll 20s linear infinite;
+}
+
+.slide {
+margin: 0px 15px;
+box-shadow: 0px -6px 10px black;
+
+}
+
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-1000px); 
+    }
+}
+
+.slider :nth-child(1):hover {
+    animation-play-state: paused;
+
+}
+
+.reveal{
+    position: relative;
+    opacity: 0;
+}
+
+
+.slider.active {
+    width: 1440px; 
+    overflow: hidden;
+    position: relative;
+    bottom: 160px;
+    transition: 1s;
+    z-index: 1;
+    opacity: 1;
+    transition: 1s;
+    
+    
+}
+
+
+
+.active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.footer{
+    position: relative;
+    padding: 0px;
+    bottom: 85px;
+}
+
+.footer img {
+    max-width: 100%;
+    margin-bottom: -500px;
+
+}
+
+.headlogo{
+    position: relative;
+    left:485px;
+    
+}
+
+.headf{
+position: relative;
+
+font-size: 30px;
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+
+.subfooter{
+position: relative;
+
+font-family: "Roboto", sans-serif;
+color:white;
+font-size: 25px;
+left: 100px;
+font-weight: bold;
+bottom: 50px;
+
+}
+
+.logof img{
+    height:68px;
+    width: 68px;
+    position: relative;
+    bottom:57px;
+    right: 80px;
+    
+}
+
+.footerline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    bottom:10px;
+ 
+
+}
+
+.connect{
+    position: relative;
+    color: #E5E1E1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 182px;
+
+
+}
+
+.icons{
+    position:relative;
+    display: flex;
+    gap: 15px;
+    left: 200px;    
+    top:20px;
+}
+
+.fb{
+    position: relative;
+    bottom: 2px;
+}
+
+.foooterline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    top:50px;
+ 
+}
+
+
+.terms ul li{
+    position: relative;
+    color:white;
+    left: 455px;
+    top: 170px;
+    display: inline;
+    
+ 
+}
+
+.terms a {
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+   
+
+    
+}
+
+.cright{
+    position: relative;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 474px;
+    top: 170px;
+}
+
+

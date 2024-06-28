@@ -1,0 +1,1129 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    border: 0px solid;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(31, 30, 30);
+    background-color: white;
+    z-index: 1;
+    
+}
+
+header .logo{
+    padding: 0px 80px;
+    position: fixed;
+    top: 10px;
+}
+
+.logo h2{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+header .menu{
+    padding: 0px 80px 0px 335px;
+    position: relative;
+    top: 16px;
+    left: 35%;
+}
+
+.menu ul li:nth-child(2){
+    margin-right: -13px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu ul li ul.dropdown li{
+  display: block;
+  margin: 4px 0px;
+}
+
+.menu ul li ul.dropdown{
+    width: auto;
+    background: white;
+    position: absolute;
+    display: none;
+}
+
+.menu ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+}
+
+.menu ul li a:hover::after{
+width: 100%;
+}
+
+.menu ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.topimg img:nth-child(2){
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+}
+
+.itdept{
+    position: relative;
+    left: 430px;
+    bottom: 60px;
+    font-size: 15px;
+}
+
+.subitdept{
+    position: relative;
+    text-align: justify;
+    margin: 0px 80px;
+    font-weight: 500;
+    font-size: 20px;
+    bottom: 40px;
+}
+
+.achievehead{
+    position: relative;
+    left: 37%;
+    margin-top: 20px;
+
+}
+
+.achieveimg{
+    display:flex;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+
+.achieveimg .achieve{
+    padding: 0px 45px;
+}
+
+.career .careerhead{
+    position: relative;
+    width: 640px;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.career .careersub{
+    position: relative;
+    width: 630px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.careerimg img{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.asset .assethead{
+    position: relative;
+    width: 560px;
+    left: 55.5%;
+    bottom: 567px;
+
+}
+
+.asset img{
+    position: relative;
+    left: 55.5%;
+    bottom: 545px;
+
+}
+
+.assettext{
+     position: relative;
+     left: 56.7%;
+     line-height: 76px;
+     bottom: 550px;
+     font-size: 15px;
+}
+
+.assettextt{
+    position: relative;
+    left: 79%;
+    line-height: 76px;
+    bottom: 1082px;
+    font-size: 15px;
+}
+.facil{
+    position: relative;
+    margin-top: -535px;
+    
+}
+
+.facil .facilhead{
+    position: relative;
+    left: 33%;
+    bottom: 520px;
+}
+
+.facil .facilsub{
+    position: relative;
+    width: 850px;
+    bottom: 500px;
+    left: 240px;
+    text-align: center;
+}
+
+.facil .facilimg{
+    position: relative;
+    display:flex;
+    left: 10px;
+    bottom: 470px;
+}
+
+.facil .facilimg img {
+    padding: 0px 10px;
+}
+
+.footer{
+    position: relative;
+    padding: 0px;
+    bottom: 85px; 
+    margin-top: -330px;
+}
+
+.footer img {
+    max-width: 100%;
+    margin-bottom: -500px;
+
+}
+
+.headlogo{
+    position: relative;
+    left:485px;
+    
+}
+
+.headf{
+position: relative;
+
+font-size: 30px;
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+
+.subfooter{
+position: relative;
+
+font-family: "Roboto", sans-serif;
+color:white;
+font-size: 25px;
+left: 100px;
+font-weight: bold;
+bottom: 50px;
+
+}
+
+.logof img{
+    height:68px;
+    width: 68px;
+    position: relative;
+    bottom:57px;
+    right: 80px;
+    
+}
+
+.footerline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    bottom:10px;
+ 
+
+}
+
+.connect{
+    position: relative;
+    color: #E5E1E1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 182px;
+
+
+}
+
+.icons{
+    position:relative;
+    display: flex;
+    gap: 15px;
+    left: 200px;    
+    top:20px;
+}
+
+.fb{
+    position: relative;
+    bottom: 2px;
+}
+
+.foooterline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    top:50px;
+ 
+}
+
+
+.terms ul li{
+    position: relative;
+    color:white;
+    left: 455px;
+    top: 170px;
+    display: inline;
+    
+ 
+}
+
+.terms a {
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+   
+
+    
+}
+
+.cright{
+    position: relative;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 474px;
+    top: 170px;
+}
+
+
+@media (max-width: 360px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    border: 0px solid;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(31, 30, 30);
+    background-color: white;
+    z-index: 1;
+    
+}
+
+header .logo{
+    padding: 0px 80px;
+    position: fixed;
+    top: 10px;
+}
+
+.logo h2{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+header .menu{
+    padding: 0px 80px 0px 335px;
+    position: relative;
+    top: 16px;
+    left: 10%;
+}
+
+.menu ul li:nth-child(2){
+    margin-right: -13px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+    right: 20%;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu ul li ul.dropdown li{
+  display: block;
+  margin: 4px 0px;
+}
+
+.menu ul li ul.dropdown{
+    width: auto;
+    background: white;
+    position: absolute;
+    display: none;
+}
+
+.menu ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+}
+
+.menu ul li a:hover::after{
+width: 100%;
+}
+
+.menu ul li:hover ul.dropdown{
+    display: block;
+}
+
+ 
+
+
+.topimg img:nth-child(2){
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+}
+
+.itdept h1{
+    position: relative;
+    width: 700px;
+    right: 30px;
+}
+
+.subitdept p{
+    position: relative;
+    text-align: justify;
+    margin: 0px 80px;
+    left: 15px;
+    font-weight: 500;
+    right: 120px;
+    font-size: 20px;
+    width: 1000px;
+    text-align: center;
+}
+
+.achievehead h1{
+    position: relative;
+    right: 38px;
+    margin-top: 20px;
+    width: 400px;
+
+}
+
+.achieveimg img{
+    position: relative;
+    left: -20px;
+    display:flex;
+
+}
+
+
+.achieveimg .achieve{
+    padding: 0px 30px;
+    position: relative;
+    left: -20px;
+}
+
+.career .careerhead{
+    position: relative;
+    width: 640px;
+    margin-top: 30px;
+    margin-left: 60px;
+    left: -32px;
+}
+
+.career .careersub{
+    position: relative;
+    width: 630px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+    left: -32px;
+}
+
+.careerimg img{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+    left: -32px;
+}
+
+.asset .assethead{
+    position: relative;
+    width: 560px;
+    left: 780px;
+    bottom: 550px;
+    
+
+}
+
+.asset{
+    position: relative;
+    right: 40px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+}
+
+.assettext{
+     position: relative;
+     left: 768px;
+     line-height: 76px;
+     bottom: 550px;
+     font-size: 13px;
+     left: -32px;
+}
+
+.assettextt{
+    position: relative;
+    left: 1088px;
+    line-height: 76px;
+    bottom: 1082px;
+    font-size: 13px;
+   
+}
+.facil{
+    position: relative;
+    margin-top: -535px;
+    
+}
+
+.facil .facilhead{
+    position: relative;
+    left: 500px;
+    width: 500px;
+    bottom: 520px;
+}
+
+.facil .facilsub{
+    position: relative;
+    width: 850px;
+    bottom: 510px;
+    left: 300px;
+    text-align: center;
+}
+
+.facil .facilimg{
+    position: relative;
+    display:flex;
+    bottom: 470px;
+}
+
+.facil .facilimg img {
+    padding: 0px 10px;
+    width: 300px;
+    position: relative;
+    left: 10px;
+    top: 30px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    position: relative;
+    margin-bottom: -10px;
+}
+
+.footer img {
+    min-width: 1440px;
+    position: relative;
+   
+
+}
+
+.headlogo{
+    position: relative;
+    left:485px;
+    
+}
+
+.headf{
+position: relative;
+
+font-size: 30px;
+width: 700px;
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+
+.subfooter{
+position: relative;
+
+font-family: "Roboto", sans-serif;
+color:white;
+font-size: 25px;
+left: 100px;
+font-weight: bold;
+bottom: 50px;
+
+}
+
+.logof img{
+    height:68px;
+    width: 68px;
+    position: relative;
+    bottom:57px;
+    right: 80px;
+    
+}
+
+.footerline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    bottom:10px;
+ 
+
+}
+
+.connect{
+    position: relative;
+    color: #E5E1E1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 182px;
+
+
+}
+
+.icons{
+    position:relative;
+    display: flex;
+    gap: 15px;
+    left: 200px;    
+    top:20px;
+}
+
+.fb{
+    position: relative;
+    bottom: 2px;
+}
+
+.foooterline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    top:50px;
+ 
+}
+
+
+.terms ul li{
+    position: relative;
+    width: 1px;
+    color:white;
+    left: 440px;
+    
+    top: 130px;
+    display: inline;
+    
+ 
+}
+.terms {
+    width: 700px;
+}
+.terms ul li a{
+   width: 700px;
+    
+ 
+}
+
+
+
+.terms a {
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+   
+
+    
+}
+
+.cright{
+    position: relative;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 460px;
+    top: 140px;
+    width: 600px;
+}
+}
+
+
+@media (max-width: 430px){
+
+    @import url('https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sedan+SC&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+   
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+header{
+    margin: 0;
+    display: flex;
+    position: fixed;
+    height: 70px;
+    display: flex;
+    border: 0px solid;
+    width: 100%;
+    box-shadow: 0px 2px 4px rgb(31, 30, 30);
+    background-color: white;
+    z-index: 1;
+    
+}
+
+header .logo{
+    padding: 0px 80px;
+    position: fixed;
+    top: 10px;
+}
+
+.logo h2{
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    bottom: 20px;
+    display: inline-block;
+}
+
+header .menu{
+    padding: 0px 80px 0px 335px;
+    position: relative;
+    top: 16px;
+    left: 35%;
+}
+
+.menu ul li:nth-child(2){
+    margin-right: -13px;
+}
+
+.menu ul{
+    list-style: none;
+}
+
+.menu ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.menu ul li a{
+    display: block;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.menu ul li ul.dropdown li{
+  display: block;
+  margin: 4px 0px;
+}
+
+.menu ul li ul.dropdown{
+    width: auto;
+    background: white;
+    position: absolute;
+    display: none;
+}
+
+.menu ul li a:after{
+    content: "";
+    position: absolute;
+    background-color: blue;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -1px;
+}
+
+.menu ul li a:hover::after{
+width: 100%;
+}
+
+.menu ul li:hover ul.dropdown{
+    display: block;
+}
+
+
+.topimg img:nth-child(2){
+    width: 150px;
+    height: 150px;
+    position: relative;
+    left: 650px;
+    bottom: 80px;
+}
+
+.itdept{
+    position: relative;
+    left: 445px;
+    width: 700px;
+    bottom: 60px;
+}
+
+.subitdept{
+    position: relative;
+    text-align: justify;
+    margin: 0px 80px;
+    font-weight: 500;
+    width: 1200px;
+    left: 30px;
+    font-size: 20px;
+    bottom: 40px;
+    text-align: center;
+}
+
+.achievehead{
+    position: relative;
+    left: 512px;
+
+
+}
+
+.achieveimg{
+    display:flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.achieveimg .achieve{
+    padding: 0px 45px;
+}
+
+.career .careerhead{
+    position: relative;
+    width: 640px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.career .careersub{
+    position: relative;
+    width: 630px;
+    text-align: justify;
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.careerimg img{
+    position: relative;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.asset .assethead{
+    position: relative;
+    width: 560px;
+    left: 780px;
+    bottom: 550px;
+
+}
+
+.asset img{
+    position: relative;
+    left: 55.5%;
+    bottom: 545px;
+
+}
+
+.assettext{
+     position: relative;
+     left: 800px;
+     line-height: 76px;
+     bottom: 550px;
+     font-size: 13px;
+}
+
+.assettextt{
+    position: relative;
+    left: 1120px;
+    line-height: 76px;
+    bottom: 1082px;
+    font-size: 13px;
+}
+.facil{
+    position: relative;
+    margin-top: -535px;
+    
+}
+
+.facil .facilhead{
+    position: relative;
+    left: 500px;
+    width: 500px;
+    bottom: 520px;
+}
+
+.facil .facilsub{
+    position: relative;
+    width: 850px;
+    bottom: 510px;
+    left: 300px;
+    text-align: center;
+}
+
+.facil .facilimg{
+    position: relative;
+    display:flex;
+    left: 15px;
+    bottom: 470px;
+}
+
+.facil .facilimg img {
+    padding: 0px 10px;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer img {
+    min-width: 1440px;
+   
+
+}
+
+.headlogo{
+    position: relative;
+    left:485px;
+    
+}
+
+.headf{
+position: relative;
+
+font-size: 30px;
+width: 700px;
+color: white;
+font-family: "Roboto", sans-serif;
+
+}
+
+
+.subfooter{
+position: relative;
+
+font-family: "Roboto", sans-serif;
+color:white;
+font-size: 25px;
+left: 100px;
+font-weight: bold;
+bottom: 50px;
+
+}
+
+.logof img{
+    height:68px;
+    width: 68px;
+    position: relative;
+    bottom:57px;
+    right: 80px;
+    
+}
+
+.footerline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    bottom:10px;
+ 
+
+}
+
+.connect{
+    position: relative;
+    color: #E5E1E1;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 182px;
+
+
+}
+
+.icons{
+    position:relative;
+    display: flex;
+    gap: 15px;
+    left: 200px;    
+    top:20px;
+}
+
+.fb{
+    position: relative;
+    bottom: 2px;
+}
+
+.foooterline{
+    width: 107px;
+    position: relative;
+    left: 182px;
+    top:50px;
+ 
+}
+
+
+.terms ul li{
+    position: relative;
+    width: 1px;
+    color:white;
+    left: 440px;
+    
+    top: 130px;
+    display: inline;
+    
+ 
+}
+.terms {
+    width: 700px;
+}
+.terms ul li a{
+   width: 700px;
+    
+ 
+}
+
+
+
+.terms a {
+    text-decoration: none;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    
+}
+
+.terms a:hover {
+    text-decoration: none;
+    color:gray;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+   
+
+    
+}
+
+.cright{
+    position: relative;
+    color:white;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    left: 460px;
+    top: 140px;
+    width: 600px;
+}
+}
